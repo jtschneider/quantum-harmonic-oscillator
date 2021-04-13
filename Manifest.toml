@@ -39,12 +39,6 @@ git-tree-sha1 = "c3598e525718abcc440f69cc6d5f60dda0a1b61e"
 uuid = "6e34b625-4abd-537c-b88f-471c36dfa7a0"
 version = "1.0.6+5"
 
-[[CSSUtil]]
-deps = ["Colors", "JSON", "Markdown", "Measures", "WebIO"]
-git-tree-sha1 = "b9fb4b464ec10e860abe251b91d4d049934f7399"
-uuid = "70588ee8-6100-5070-97c1-3cb50ed05fe8"
-version = "0.1.1"
-
 [[Cairo_jll]]
 deps = ["Artifacts", "Bzip2_jll", "Fontconfig_jll", "FreeType2_jll", "Glib_jll", "JLLWrappers", "LZO_jll", "Libdl", "Pixman_jll", "Pkg", "Xorg_libXext_jll", "Xorg_libXrender_jll", "Zlib_jll", "libpng_jll"]
 git-tree-sha1 = "e2f47f6d8337369411569fd45ae5753ca10394c6"
@@ -257,18 +251,6 @@ git-tree-sha1 = "098e4d2c533924c921f9f9847274f2ad89e018b8"
 uuid = "83e8ac13-25f8-5344-8a64-a9f2b223428f"
 version = "0.5.0"
 
-[[Interact]]
-deps = ["CSSUtil", "InteractBase", "JSON", "Knockout", "Observables", "OrderedCollections", "Reexport", "WebIO", "Widgets"]
-git-tree-sha1 = "381c584142ac744bcc23af64bff3e3dc44d7f632"
-uuid = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
-version = "0.10.3"
-
-[[InteractBase]]
-deps = ["Base64", "CSSUtil", "Colors", "Dates", "JSExpr", "JSON", "Knockout", "Observables", "OrderedCollections", "Random", "WebIO", "Widgets"]
-git-tree-sha1 = "e63b4726c282829617de0f57ce1e4e050702439a"
-uuid = "d3863d7c-f0c8-5437-a7b4-3ae773c01009"
-version = "0.10.6"
-
 [[InteractiveUtils]]
 deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
@@ -311,12 +293,6 @@ deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
 git-tree-sha1 = "2ef87eeaa28713cb010f9fb0be288b6c1a4ecd53"
 uuid = "f7e6163d-2fa5-5f23-b69c-1db539e41963"
 version = "0.1.0+0"
-
-[[Knockout]]
-deps = ["JSExpr", "JSON", "Observables", "Test", "WebIO"]
-git-tree-sha1 = "8b5552a7a9efc2b0565e2256c919651e6f4e7931"
-uuid = "bcebb21b-c2e3-54f8-a781-646b90f6d2cc"
-version = "0.2.4"
 
 [[LAME_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
