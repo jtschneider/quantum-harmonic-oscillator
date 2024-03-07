@@ -15,6 +15,7 @@ end
 
 # ╔═╡ be4635d0-9bc1-11eb-2efd-d500550f4620
 begin
+	import PlotlyJS
 	using PlutoUI 	# use interactive HTML binding of variables
 	using Plots 	# use Plot package to ... plot
 	using Printf
